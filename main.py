@@ -7,7 +7,7 @@ soundFreq = 440
 #Este es tu "path" para el chromedriver de tu PC
 PATH = "C:\Program Files (x86)\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
-driver.get("Website/Sitio Web")
+driver.get("---Website/Sitio Web---")
 
 """Es simple, después de específicar un sitio web, verifica tres cosas. Nombre del producto (tarjeta gráfica), precio y disponibilidad.
  guarda esos tres valores en variables, luego guarda esos valores en una matriz bidimensional y le alerta con sonido si hay alguna tarjeta disponible. """
